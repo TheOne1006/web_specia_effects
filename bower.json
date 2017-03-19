@@ -1,0 +1,14 @@
+{
+  "name": "theoneio",
+  "private": true,
+  "dependencies": {
+    "jquery": "~2.1.1",
+    "modernizr": "~2.8.1",
+    "particles.js": "^2.0.0",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
+  }
+}
