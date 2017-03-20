@@ -24,7 +24,7 @@ function _classCallCheck(instance, Constructor) {
   }
 }
 var STEP_LENGTH = 2;
-var CELL_SIZE = 1;
+var CELL_SIZE = 5;
 var BORDER_WIDTH = 1;
 var MAX_FONT_SIZE = 150;
 var MAX_ELECTRONS = 100;
