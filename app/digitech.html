@@ -30,9 +30,10 @@
 
 <input type="text" id="input" placeholder="" />
 
-    <!-- build:js scripts/text.js -->
+    <!-- build:js digitech/main.js -->
     <script src="/bower_components/underscore/underscore.js"></script>
     <script src="./digitech/main.js"></script>
+    <!-- endbuild -->
     <script>
     shape.init();
     var data = getQueryParams();
@@ -40,6 +41,5 @@
     var keyword = data.keyWord || data.keyword || 'theone.io';
     queue(keyword);
     </script>
-    <!-- endbuild -->
 </body>
 </html>
