@@ -573,28 +573,28 @@ function queue(inputText) {
     return text
   }, '')
 }
-document.getElementById('input').addEventListener('keypress', function(_ref12) {
-  var keyCode = _ref12.keyCode;
-  var target = _ref12.target;
-  if (keyCode === 13) {
-    var value = target.value.trim();
-    target.value = '';
-    switch (value) {
-    case '#destroy':
-      return shape.destroy();
-    case '#init':
-      return shape.init();
-    case '#clear':
-      return mainLayer.clear();
-    case '#reset':
-      PINNED_CELLS.length = ACTIVE_ELECTRONS.length = 0;
-      return mainLayer.clear();
-    case '#queue':
-      return queue();
-    case '':
-      return shape.clear();
-    default:
-      return shape.print(value)
-    }
-  }
-});
+// document.getElementById('input').addEventListener('keypress', function(_ref12) {
+//   var keyCode = _ref12.keyCode;
+//   var target = _ref12.target;
+//   if (keyCode === 13) {
+//     var value = target.value.trim();
+//     target.value = '';
+//     switch (value) {
+//     case '#destroy':
+//       return shape.destroy();
+//     case '#init':
+//       return shape.init();
+//     case '#clear':
+//       return mainLayer.clear();
+//     case '#reset':
+//       PINNED_CELLS.length = ACTIVE_ELECTRONS.length = 0;
+//       return mainLayer.clear();
+//     case '#queue':
+//       return queue();
+//     case '':
+//       return shape.clear();
+//     default:
+//       return shape.print(value)
+//     }
+//   }
+// });
